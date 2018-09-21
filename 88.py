@@ -4,7 +4,7 @@ if(p>q):
 else:
     min1=q
 while(1):
-    if(min1%n==0 and min1%m==0):
+    if(min1%p==0 and min1%q==0):
         print(min1)
         break
     min1=min1+1
