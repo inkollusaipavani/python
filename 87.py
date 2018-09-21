@@ -1,8 +1,8 @@
-c,d=map(int,raw_input().split())
-def gcd(m,n):
-    z=abs(m-n)
-    if (m-n)==0:
-        return n
+a,b=map(int,raw_input().split())
+def gcd(x,y):
+    z=abs(x-y)
+    if (x-y)==0:
+        return y
     else:
-        return gcd(z,min(m,n))
-print gcd(c,d)
+        return gcd(z,min(x,y))
+print gcd(a,b)
