@@ -1,3 +1,3 @@
-n,m=map(float,raw_input().split())
-a=n*m
-print (str.format('{0:.5f}',a))
+x,y=map(float,raw_input().split())
+z=x*y
+print (str.format('{0:.5f}',z))
