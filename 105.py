@@ -1,2 +1,2 @@
-n,m=map(int,raw_input().split())
-print(str(n)+str(m))
+s,n=map(int,raw_input().split())
+print(str(s)+str(s))
